@@ -1,0 +1,31 @@
+
+#login {
+  /*background: url(../images/photobackground.jpg) no-repeat center center fixed; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  filter:alpha(opacity=50);
+}
+
+#login article {
+  background: rgba(0,0,0,.7);
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 100px;
+  border-radius: 20px;
+  color: white;
+  font-weight: lighter;
+  text-shadow: none;
+}
+
+
+#login article h1, #home article p {
+  margin: 0;
+  padding:5px;
+}
+
+#login article h1 {
+  padding-bottom: 10px;
+  color: #29A198;
+}

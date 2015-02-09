@@ -1,0 +1,221 @@
+html {
+background-color: #fff !important;
+}
+
+li.frames1 .slideshow img {
+top: 3px !important;
+left: -6px !important;
+width: 139px !important;
+}
+
+li.frames1 .frame_change {
+position: absolute;
+bottom: -17px;
+right: 0;
+width: 100%;
+left: 0;
+background: #eeeeee;
+z-index: 20;
+opacity: 1;
+font-weight: bold;
+color: #000;
+font-size: 15px;
+padding: 2px;
+}
+
+li.frames2 .slideshow img {
+top: 1px !important;
+left: -4px !important;
+width: 134px !important;
+}
+
+li.frames2 .frame_change {
+position: absolute;
+bottom: -10px;
+right: 0;
+width: 97%;
+left: 1px;
+background: #eeeeee;
+z-index: 20;
+opacity: 1;
+font-weight: bold;
+color: #000;
+font-size: 15px;
+padding: 2px;
+}
+
+li.frames3 .slideshow img {
+top: -5px !important;
+left: -6px !important;
+width: 139px !important;
+}
+
+li.frames3 .frame_change {
+position: absolute;
+bottom: -10px;
+right: 0;
+width: 100%;
+left: 0;
+background: #eeeeee;
+z-index: 20;
+opacity: 1;
+font-weight: bold;
+color: #000;
+font-size: 15px;
+padding: 2px;
+}
+
+li.frames4 .slideshow img {
+top: -4px !important;
+left: -5px !important;
+width: 136px !important;
+}
+
+li.frames4 .frame_change {
+position: absolute;
+bottom: -12px;
+right: 0;
+width: 90%;
+left: 5px;
+background: #eeeeee;
+z-index: 20;
+opacity: 1;
+font-weight: bold;
+color: #000;
+font-size: 15px;
+padding: 2px;
+}
+
+li.frames5 .slideshow img {
+top: 6px !important;
+left: 0px !important;
+width: 126px !important;
+}
+
+li.frames5 .frame_change {
+position: absolute;
+bottom: -14px;
+right: 0;
+width: 89%;
+left: 12px;
+background: #eeeeee;
+z-index: 20;
+opacity: 1;
+font-weight: bold;
+color: #000;
+font-size: 15px;
+padding: 2px;
+}
+
+li.frames6 .slideshow img {
+top: 3px !important;
+left: 3px !important;
+width: 120px !important;
+}
+
+li.frames6 .frame_change {
+position: absolute;
+bottom: -14px;
+right: 0;
+width: 80%;
+left: 12px;
+background: #eeeeee;
+z-index: 20;
+opacity: 1;
+font-weight: bold;
+color: #000;
+font-size: 15px;
+padding: 2px;
+}
+
+li.frames7 .slideshow img {
+top: 1px !important;
+left: -6px !important;
+width: 132px !important;
+}
+
+li.frames7 .frame_change {
+position: absolute;
+bottom: -13px;
+right: 0;
+width: 92%;
+left: 1px;
+background: #eeeeee;
+z-index: 20;
+opacity: 1;
+font-weight: bold;
+color: #000;
+font-size: 15px;
+padding: 2px;
+}
+
+
+.selection {
+float: left;
+width: 50%;
+position: absolute;
+left: 0;
+margin: 0px auto;
+text-align: center;
+right: 0;
+background: #ccc;
+color: #fff;
+padding: 10px;
+border-radius: 10px;
+}
+
+.ui-shadow {
+-webkit-box-shadow: none !important;
+box-shadow: none !important;
+}
+
+body.ui-mobile-viewport, div.ui-mobile-viewport {
+height: auto !important;
+}
+.ui-mobile [data-role=page], .ui-mobile [data-role=dialog], .ui-page {
+position: relative !important;
+}
+
+.frames1{
+background-image: url(../../images/frame1.png) !important;
+}
+.frames2{
+background-image: url(../../images/frame2.png) !important;
+}
+.frames3{
+background-image: url(../../images/frame3.png) !important;
+}
+.frames4{
+background-image: url(../../images/frame4.png) !important;
+}
+.frames5{
+background-image: url(../../images/frame5.png) !important;
+}
+.frames6{
+background-image: url(../../images/frame6.png) !important;
+}
+.frames7{
+background-image: url(../../images/frame7.png) !important;
+}
+
+div#novaGallerySets li {
+background-position: 0px 0px !important;
+background-size: 100% 102% !important;
+display: inline-block !important;
+height: 130px !important;
+margin: 0 21px 28px 0 !important;
+width: 150px !important;
+}
+
+#novaGallerySets figure:before, #novaGallerySets figure:after{
+background: none !important;
+box-shadow: none !important;
+}
+
+#novaGallerySets img {
+background: none !important;
+box-shadow: none !important;
+/*top: 10px !important;
+width: 138px !important;
+padding: 0 !important;*/
+}

@@ -1,0 +1,13 @@
+.list,
+.output {
+  list-style-type: none;
+}
+.list li {
+  margin: 5px 0 5px 0;
+}
+.output {
+  margin: 20px 0 20px 0;
+}
+.reset.btn {
+  margin: 0 0 0 5px;
+}

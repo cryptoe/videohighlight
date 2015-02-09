@@ -1,0 +1,37 @@
+.path .menu {
+  /*The main x menu item*/
+
+  width: 50px;
+  height: 50px;
+  background: url('../assets/images/normal/mainbutton.png') no-repeat;
+}
+.path .menu.back {
+  /*The back button, just like the main button but allows you to go back one level*/
+
+  background: url('../assets/images/normal/backbutton.png') no-repeat;
+}
+.path .item {
+  /*effects all child menu items*/
+
+  width: 40px;
+  height: 40px;
+}
+/*now define the image for each menu item*/
+#menu1_menuitem0 {
+  background: url('../assets/images/normal/photo.png') no-repeat;
+}
+#menu1_menuitem1 {
+  background: url('../assets/images/normal/people.png') no-repeat;
+}
+#menu1_menuitem2 {
+  background: url('../assets/images/normal/place.png') no-repeat;
+}
+#menu1_menuitem3 {
+  background: url('../assets/images/normal/music.png') no-repeat;
+}
+#menu1_menuitem4 {
+  background: url('../assets/images/normal/thought.png') no-repeat;
+}
+#menu1_menuitem5 {
+  background: url('../assets/images/normal/composer.png') no-repeat;
+}

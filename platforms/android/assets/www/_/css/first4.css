@@ -1,0 +1,155 @@
+.infoheader{
+		height:60px;
+		z-index:2000
+	}
+	
+.info .ui-header, .info .header,  .info .ui-page-theme-a .ui-bar-inherit
+{
+	-webkit-box-shadow:  0px 2px 40px 0px rgba(40, 40, 40, 0.8);
+	-moz-box-shadow:  0px 2px 40px 0px rgba(40, 40, 40, 0.8);
+	box-shadow: 0px 2px 40px 0px rgba(40, 40, 40, 0.8);
+}
+.info .ui-page-theme-a .ui-bar-inherit
+{
+ border:none;
+}
+.info .logo
+{
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 0px 15px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 0px 15px 0px rgba(50, 50, 50, 0.75);
+}
+.info  #content
+{
+ /*padding-top:80px;*/
+}
+/*
+.ui-page-theme-a
+{
+    background:rgba(0,0,0,0);
+}
+*/
+.clear
+{
+    float:none;
+    clear:both;
+    padding:0px;
+    margin:0px;
+}
+.m-left {
+    float:left;
+    width: 45%;
+}
+.m-right
+{
+    float:right;
+    width: 45%;
+}
+.m-horizontal .m-left
+{
+     float:left;
+    width: 45%;
+}
+.m-horizontal .m-right
+{
+    float:right;
+    width: 45%;
+}
+.m-horizontal .link-photo-grapher img, .m-horizontal .link-my-event img
+{
+	margin: 0px;
+	width: 75%;
+}
+.m-vertical .m-left , .m-vertical .m-right
+{
+     float:none;
+     width:auto;
+     padding: 10px 0px;
+}
+.m-vertical .link-photo-grapher img , .m-vertical .link-my-event img
+{
+ 	margin: 0px;
+	width: 55%;
+}
+.center
+{
+    text-align:center;
+}
+.link-photo-grapher img
+{
+    width:80%;
+    margin-left: 10%;
+}
+.link-photo-grapher:hover
+{
+    opacity: 0.7;
+}
+.link-my-event
+{
+   
+}
+.link-my-event img
+{     
+    width:80%;
+    margin-right: 10%;
+}
+.link-my-event:hover
+{
+     opacity: 0.7;
+}
+
+@media all and (orientation:portrait) { 
+
+ .logo
+    {
+        height:100px !important;
+		width:100px !important;
+    }
+	    .m-right , .m-left
+    {
+     float:center;
+     width:auto;
+	 
+     padding: 10px 0px;
+    }
+	
+	#buttons{
+		position : absolute;
+		top      : 30%;
+		right    : 0;
+		bottom   : 50%;
+		left     : 0;
+	
+	}
+    .link-photo-grapher img , .link-my-event img
+     { margin: 0px; width: 80%; }
+	 /*.info #content { padding-top: 50px;}
+	 */
+	 
+	 
+}
+@media all and (orientation:landscape) {
+	
+	#buttons{
+		position : absolute;
+		top      : 50%;
+		right    : 0;
+		bottom   : 50%;
+		left     : 0;
+	
+	}
+	
+  .logo
+        {  height:100px !important;
+		width:100px !important;}
+	.link-photo-grapher img , .link-my-event img
+       { margin: 0px; width: 80%; }
+	/*.info #content { padding-top: 50px;}
+	*/
+	
+	
+	}
+	

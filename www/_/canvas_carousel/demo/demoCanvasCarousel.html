@@ -1,0 +1,652 @@
+﻿<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Canvas Carousel</title>
+
+		<meta charset="utf-8">
+		
+		<link rel="stylesheet" type="text/css" href="css/slider.css"/>
+		<link rel="stylesheet" type="text/css" href="css/colorpicker.css" />
+		
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+		<script type="text/javascript" src="http://cdn.jquerytools.org/1.2.6/full/jquery.tools.min.js"></script>
+		<script type="text/JavaScript" src="js/jquery.mousewheel.js"></script>
+		<script type="text/javascript" src="js/easel.js"></script>
+		<script type="text/javascript" src="js/easeljs/filters/Filter.js"></script>
+		<script type="text/javascript" src="js/easeljs/filters/ColorFilter.js"></script>
+		<script type="text/javascript" src="js/tween.js"></script>
+		<script type="text/javascript" src="js/colorpicker.js"></script>
+		<script type="text/javascript" src="js/DemoCanvasCarousel.js"></script>
+		
+		<script type="text/javascript">
+			$(document).ready(function() 
+			{
+				var dcc = new DemoCanvasCarousel("myCanvas", "load/config.xml");
+				
+				$("#carouselRadiusX").rangeinput
+				({
+					change: function(ev, val)
+					{
+						dcc.setRadiusX(val);
+					},
+					onSlide: function(ev, val)
+					{
+						dcc.setRadiusX(val);
+					},
+				});
+				
+				$("#carouselRadiusY").rangeinput
+				({
+					change: function(ev, val)
+					{
+						dcc.setRadiusY(val);
+					},
+					onSlide: function(ev, val)
+					{
+						dcc.setRadiusY(val);
+					},
+				});
+				
+				$("#carouselRadiusZ").rangeinput
+				({
+					change: function(ev, val)
+					{
+						dcc.setRadiusZ(val);
+					},
+					onSlide: function(ev, val)
+					{
+						dcc.setRadiusZ(val);
+					},
+				});
+				
+				$("#carouselCenterX").rangeinput
+				({
+					change: function(ev, val)
+					{
+						dcc.setCenterX(val);
+					},
+					onSlide: function(ev, val)
+					{
+						dcc.setCenterX(val);
+					},
+				});
+				
+				$("#carouselCenterY").rangeinput
+				({
+					change: function(ev, val)
+					{
+						dcc.setCenterY(val);
+					},
+					onSlide: function(ev, val)
+					{
+						dcc.setCenterY(val);
+					},
+				});
+				
+				$("#carouselAngle").rangeinput
+				({
+					change: function(ev, val)
+					{
+						dcc.setAngle(val);
+					},
+					onSlide: function(ev, val)
+					{
+						dcc.setAngle(val);
+					},
+				});
+				
+				$("#reflDistance").rangeinput
+				({
+					change: function(ev, val)
+					{
+						dcc.setReflDistance(val);
+					},
+					onSlide: function(ev, val)
+					{
+						dcc.setReflDistance(val);
+					},
+				});
+
+				$("#bgColorSel").ColorPicker
+				({
+					color: "#000000",
+					onShow: function (colpkr) 
+					{
+						$(colpkr).fadeIn(500);
+						return false;
+					},
+					onHide: function (colpkr) 
+					{
+						$(colpkr).fadeOut(500);
+						return false;
+					},
+					onChange: function (hsb, hex, rgb) 
+					{
+						$("#bgColorSel").css("background-color", "#" + hex);
+						$("#myCanvas").css("background-color", "#" + hex);
+					}
+				});
+				
+				$("#borderColorSel").ColorPicker
+				({
+					color: "#FFFFFF",
+					onShow: function (colpkr) 
+					{
+						$(colpkr).fadeIn(500);
+						return false;
+					},
+					onHide: function (colpkr) 
+					{
+						$(colpkr).fadeOut(500);
+						return false;
+					},
+					onChange: function (hsb, hex, rgb) 
+					{
+						$("#borderColorSel").css("backgroundColor", "#" + hex);
+						dcc.setBorderColor("#" + hex);
+					}
+				});
+				
+				$("#buttonsBgColorSel").ColorPicker
+				({
+					color: "#FFFFFF",
+					onShow: function (colpkr) 
+					{
+						$(colpkr).fadeIn(500);
+						return false;
+					},
+					onHide: function (colpkr) 
+					{
+						$(colpkr).fadeOut(500);
+						return false;
+					},
+					onChange: function (hsb, hex, rgb) 
+					{
+						$("#buttonsBgColorSel").css("backgroundColor", "#" + hex);
+						dcc.setButtonsBgColor("#" + hex);
+					}
+				});
+				
+				$("#buttonsIcColorSel").ColorPicker
+				({
+					color: "#000000",
+					onShow: function (colpkr) 
+					{
+						$(colpkr).fadeIn(500);
+						return false;
+					},
+					onHide: function (colpkr) 
+					{
+						$(colpkr).fadeOut(500);
+						return false;
+					},
+					onChange: function (hsb, hex, rgb) 
+					{
+						$("#buttonsIcColorSel").css("backgroundColor", "#" + hex);
+						dcc.setButtonsIcColor("#" + hex);
+					}
+				});
+				
+				$("#scrollbarTrackColorSel").ColorPicker
+				({
+					color: "#222222",
+					onShow: function (colpkr) 
+					{
+						$(colpkr).fadeIn(500);
+						return false;
+					},
+					onHide: function (colpkr) 
+					{
+						$(colpkr).fadeOut(500);
+						return false;
+					},
+					onChange: function (hsb, hex, rgb) 
+					{
+						$("#scrollbarTrackColorSel").css("backgroundColor", "#" + hex);
+						dcc.setScrollbarTrackColor("#" + hex);
+					}
+				});
+				
+				$("#scrollbarHandlerColorSel").ColorPicker
+				({
+					color: "#FFFFFF",
+					onShow: function (colpkr) 
+					{
+						$(colpkr).fadeIn(500);
+						return false;
+					},
+					onHide: function (colpkr) 
+					{
+						$(colpkr).fadeOut(500);
+						return false;
+					},
+					onChange: function (hsb, hex, rgb) 
+					{
+						$("#scrollbarHandlerColorSel").css("backgroundColor", "#" + hex);
+						dcc.setScrollbarHandlerColor("#" + hex);
+					}
+				});
+				
+				$("#showRefl").click(function()
+				{
+					dcc.setShowRefl($(this).prop("checked"));
+				});
+				
+				$("#showScrollbar").click(function()
+				{
+					dcc.setShowScrollbar($(this).prop("checked"));
+				});
+				
+				$("#prelBgColorSel").ColorPicker
+				({
+					color: "#222222",
+					onShow: function (colpkr) 
+					{
+						$(colpkr).fadeIn(500);
+						return false;
+					},
+					onHide: function (colpkr) 
+					{
+						$(colpkr).fadeOut(500);
+						return false;
+					},
+					onChange: function (hsb, hex, rgb) 
+					{
+						$("#prelBgColorSel").css("backgroundColor", "#" + hex);
+						dcc.setPreloaderBgColor("#" + hex);
+					}
+				});
+				
+				$("#prelIcColorSel").ColorPicker
+				({
+					color: "#FFFFFF",
+					onShow: function (colpkr) 
+					{
+						$(colpkr).fadeIn(500);
+						return false;
+					},
+					onHide: function (colpkr) 
+					{
+						$(colpkr).fadeOut(500);
+						return false;
+					},
+					onChange: function (hsb, hex, rgb) 
+					{
+						$("#prelIcColorSel").css("backgroundColor", "#" + hex);
+						dcc.setPreloaderIcColor("#" + hex);
+					}
+				});
+				
+				$("#preset1").click(function()
+				{
+					dcc.setPreset(1);
+					
+					$("#preset1").addClass("selected");
+					$("#preset2").removeClass("selected");
+					$("#preset3").removeClass("selected");
+					$("#preset4").removeClass("selected");
+					$("#preset5").removeClass("selected");
+					$("#preset6").removeClass("selected");
+				});
+				$("#preset2").click(function()
+				{
+					dcc.setPreset(2);
+					
+					$("#preset1").removeClass("selected");
+					$("#preset2").addClass("selected");
+					$("#preset3").removeClass("selected");
+					$("#preset4").removeClass("selected");
+					$("#preset5").removeClass("selected");
+					$("#preset6").removeClass("selected");
+				});
+				$("#preset3").click(function()
+				{
+					dcc.setPreset(3);
+					
+					$("#preset1").removeClass("selected");
+					$("#preset2").removeClass("selected");
+					$("#preset3").addClass("selected");
+					$("#preset4").removeClass("selected");
+					$("#preset5").removeClass("selected");
+					$("#preset6").removeClass("selected");
+				});
+				$("#preset4").click(function()
+				{
+					dcc.setPreset(4);
+					
+					$("#preset1").removeClass("selected");
+					$("#preset2").removeClass("selected");
+					$("#preset3").removeClass("selected");
+					$("#preset4").addClass("selected");
+					$("#preset5").removeClass("selected");
+					$("#preset6").removeClass("selected");
+				});
+				$("#preset5").click(function()
+				{
+					dcc.setPreset(5);
+					
+					$("#preset1").removeClass("selected");
+					$("#preset2").removeClass("selected");
+					$("#preset3").removeClass("selected");
+					$("#preset4").removeClass("selected");
+					$("#preset5").addClass("selected");
+					$("#preset6").removeClass("selected");
+				});
+				$("#preset6").click(function()
+				{
+					dcc.setPreset(6);
+					
+					$("#preset1").removeClass("selected");
+					$("#preset2").removeClass("selected");
+					$("#preset3").removeClass("selected");
+					$("#preset4").removeClass("selected");
+					$("#preset5").removeClass("selected");
+					$("#preset6").addClass("selected");
+				});
+				
+			});
+		</script>
+		
+		<style type="text/css">
+
+			/* reset styles */
+			html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+				padding: 0;
+				margin: 0;
+				font-size: 100%;
+				font-weight: normal;
+				font-family:Arial, Helvetica, sans-serif;
+				font-size:10px;
+				color:#666666;
+			}
+
+			/* end reset */
+			body{
+				font-family:Arial, Helvetica, sans-serif;
+				color:#000;	
+				background-color:#111111;
+			}
+			
+			#controls{
+				position:absolute;
+				width:250px;
+				height:600px;
+				left:730px;
+				top:0;
+				background-color:#000;	
+			}
+			
+			#caption{
+				background-color:#222222;
+				margin:4px 4px 4px 4px;
+				padding:3px 1px 3px 1px;
+			}
+			
+			#caption p{
+				color:#DDD;
+				text-align:center;		
+			}
+		
+			#mainDiv{
+				position:absolute;
+				background-color:#000;
+				left:50%;
+				top:50%;
+				margin-left:-490px;
+				margin-top:-300px;
+			}
+			
+			#mainDiv #myCanvas{
+				position:absolute;
+				width:729px;
+				height:600px;
+				background-color:#000;
+			}
+			
+			#box{
+				position:relative;
+				background-color:#000000;	
+				height:566px;
+				margin:4px;
+				border:#333 solid 1px;
+			}
+			
+			#box .demoSliderLabel{
+				color:#AAA;
+			}
+			
+			#radiusX{
+				margin-left:10px;	
+				margin-top:10px;
+				padding-bottom:10px;
+			}
+			
+			.sliderDiv1{
+				clear:both;
+				margin-left:10px;
+				margin-top:12px;
+			}
+			
+			.sliderDiv{
+				clear:both;
+				margin-left:10px;
+				margin-top:22px;
+			}
+			
+			.colorDiv1{
+				clear:both;
+				margin-left:10px;
+				margin-top:56px;
+			}
+			
+			.colorDiv{
+				clear:both;
+				margin-left:10px;
+				margin-top:10px;
+			}
+		
+			.colorDemoColorLabel{
+				float:left;
+				width:200px;
+				margin-left:12px;
+				margin-top:8px;
+			}
+			
+			
+			
+			.checkBoxDiv{
+				clear:both;
+				width:300px;
+				margin-left:8px;
+				margin-top:30px;
+			}
+			
+			.checkBoxDiv input{
+				float:left;
+			}
+			
+			.checkBoxDiv p{
+				margin-top:0px;
+				padding-top:3px;
+				margin-bottom:4px;
+				margin-left:15px;
+			}
+		
+			#presets{
+				margin-top:4px;
+				margin-left:4px;
+				margin-right:4px;	
+				background-color:#222;
+				padding-bottom:10px;
+				overflow:hidden;
+			}
+			
+			#presets li{
+				float:left;	
+				list-style:none;
+			}
+			
+			#presets a{
+				display:block;
+				margin-left:10px;
+				padding-top:4px;
+				padding-bottom:2px;
+				
+				padding-right:3px;
+				padding-left:3px;
+				width:18px;
+				height:15px;
+				color:#000000;
+				background-color:#FFF;
+				text-align:center;
+				vertical-align:middle;
+				text-decoration:none;
+			}
+			
+			#presets p{
+				color:#DDD;
+				margin-left:10px;
+				margin-bottom:10px;
+				margin-top:6px;
+			}
+			
+			#presets a:hover{
+				background-color:#000;	
+				color:#FFF;
+			}
+			
+			#presets .selected{
+				background-color:#000;	
+				color:#FFF;
+			}
+			
+			.checkBoxDiv .checkBox{
+				float:left;
+				margin-right:-4px;
+			}
+			
+			
+		</style>
+	</head>
+	
+	<body>
+		<div id="mainDiv">	
+        
+        	<canvas id="myCanvas"></canvas>	
+            
+            <div id="controls">
+            
+                <div id="caption">
+                     <p>COMPONENT CONTROL PANEL SETTINGS</p>
+                </div>
+                
+                <div id="box">
+                
+                		<div id="presets">
+                        	<p>CAROUSEL PRESETS</p>
+                        	<ul>
+                            	<li><a id="preset1" href="#preset1" class="selected">1</a></li>
+                          		<li><a id="preset2" href="#preset2">2</a></li>
+                                <li><a id="preset3" href="#preset3">3</a></li>
+                                <li><a id="preset4" href="#preset4">4</a></li>
+                                <li><a id="preset5" href="#preset5">5</a></li>
+                                <li><a id="preset6" href="#preset6">6</a></li>
+                            </ul>
+                        </div>
+                
+                		<div class="sliderDiv1">
+                        	<p class="demoSliderLabel">RADIUS X</p>
+                        	<input type="range" id="carouselRadiusX" min="100" max="500" value="300" />
+                        </div>
+                        
+                        <div class="sliderDiv">
+                        	<p class="demoSliderLabel">RADIUS Y</p>
+                        	<input type="range" id="carouselRadiusY" min="-300" max="300" value="100" />
+                        </div>
+                        
+                        <div class="sliderDiv">
+                        	<p class="demoSliderLabel">RADIUS Z</p>
+                        	<input type="range" id="carouselRadiusZ" min="100" max="500" value="150" />
+                        </div>
+                        
+          				<div class="sliderDiv">
+                        	<p class="demoSliderLabel">CENTER X OFFSET</p>
+                        	<input type="range" id="carouselCenterX" min="-200" max="200" value="0" />
+                        </div>
+                        
+                        <div class="sliderDiv">
+                        	<p class="demoSliderLabel">CENTER Y OFFSET</p>
+                        	<input type="range" id="carouselCenterY" min="-200" max="200" value="-50" />
+                        </div>
+                        
+                        <div class="sliderDiv">
+                        	<p class="demoSliderLabel">ROTATION ANGLE</p>
+                        	<input type="range" id="carouselAngle" min="0" max="180" value="0" />
+                        </div>
+                        
+                         <div class="sliderDiv">
+                        	<p class="demoSliderLabel">REFLECTION DISTANCE</p>
+                        	<input type="range" id="reflDistance" min="0" max="100" value="0" />
+                        </div>
+                        
+                        <div class="checkBoxDiv">
+                        	<input id="showRefl" type="checkbox" checked="true" class="checkBox"/>
+                            <p class="colorDemoColorLabel">SHOW REFLECTION</p>
+                        </div>
+                        
+                        <div class="checkBoxDiv">
+                        	<input id="showScrollbar" type="checkbox" checked="true" class="checkBox"/>
+                            <p class="colorDemoColorLabel">SHOW SCROLLBAR</p>
+                        </div>
+						
+						
+                        <div class="colorDiv1">
+                        	<div id="borderColorSel" class="colorSelector" style="background-color: #FFFFFF"></div>
+                        	<p class="colorDemoColorLabel">THUMB BORDER COLOR</p>
+                        </div>
+                        
+                        <div class="colorDiv">
+                        	<div id="bgColorSel" class="colorSelector" style="background-color: #000000"></div>
+                        	<p class="colorDemoColorLabel">BACKGROUND COLOR</p>
+                        </div>
+                        
+                    	<div class="colorDiv">
+                        	<div id="buttonsBgColorSel" class="colorSelector" style="background-color: #FFFFFF"></div>
+                        	<p class="colorDemoColorLabel">	BUTTONS BACKGROUND COLOR</p>
+                        </div>
+                        
+                        <div class="colorDiv">
+                        	<div id="buttonsIcColorSel" class="colorSelector" style="background-color: #222222"></div>
+                        	<p class="colorDemoColorLabel">	BUTTONS ICONS COLOR</p>
+                        </div>
+                        
+                        <div class="colorDiv">
+                        	<div id="scrollbarTrackColorSel" class="colorSelector" style="background-color: #222222"></div>
+                        	<p class="colorDemoColorLabel">SCROLLBAR TRACK COLOR</p>
+                        </div>
+                        
+                        <div class="colorDiv">
+                        	<div id="scrollbarHandlerColorSel" class="colorSelector" style="background-color: #FFFFFF"></div>
+                        	<p class="colorDemoColorLabel">SCROLLBAR HANDLER COLOR</p>
+                        </div>
+                  
+						<div class="colorDiv">
+                        	<div id="prelBgColorSel" class="colorSelector" style="background-color: #222222"></div>
+                        	<p class="colorDemoColorLabel">	SLIDESHOW BACKGROUND COLOR</p>
+                        </div>
+                        
+                        <div class="colorDiv">
+                        	<div id="prelIcColorSel" class="colorSelector" style="background-color: #FFFFFF"></div>
+                        	<p class="colorDemoColorLabel">	SLIDESHOW FILL COLOR</p>
+                        </div>
+                  
+                </div>
+                
+               
+      
+		</div>
+		
+		
+	</body>
+</html>

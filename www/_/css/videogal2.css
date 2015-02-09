@@ -1,0 +1,76 @@
+
+
+.novaGallerySets li {
+    display: inline-block;
+    height: 100px;
+    margin: 0 21px 28px 0;
+    width: 130px;
+}
+.novaGallerySets figure {
+    position: relative;
+}
+.novaGallerySets figure:before, .novaGallerySets figure:after {
+   /* background: none repeat scroll 0 0 #EDEDED;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.7);*/
+    content: "";
+    display: block;
+   /* height: 91px;*/
+    left: 0;
+    padding: 7px;
+    position: absolute;
+    top: 0;
+    width: 126px;
+}
+.novaGallerySets li figure:before {
+    -moz-transform: rotate(-3deg);
+    z-index: 2;
+}
+.novaGallerySets li figure:after {
+    -moz-transform: rotate(4deg);
+    z-index: 1;
+}
+.novaGallerySets img {
+    background: none repeat scroll 0 0 #EDEDED;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+    height: 91px;
+    padding: 7px;
+    position: relative;
+    width: 126px;
+    z-index: 3;
+}
+
+	.novaGallerySets img {
+	background: none repeat scroll 0 0 #EDEDED;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.7);
+	cursor: pointer;
+	height: 91px;
+	padding: 7px;
+	position: relative;
+	width: 126px;
+	z-index: 3;
+	}
+	
+
+div.novaGallerySets li {
+background-position: 0px 0px !important;
+background-size: 100% 102% !important;
+display: inline-block !important;
+height: 130px !important;
+margin: 0 21px 28px 0 !important;
+width: 150px !important;
+}
+
+.novaGallerySets figure:before, #novaGallerySets figure:after{
+background: none !important;
+box-shadow: none !important;
+}
+
+.novaGallerySets img {
+background: none !important;
+box-shadow: none !important;
+/*top: 10px !important;
+width: 138px !important;
+padding: 0 !important;*/
+}	
+	

@@ -1,0 +1,112 @@
+.container {
+	height: 198px;
+	overflow: hidden;
+	position: relative;
+	width: 125px;
+}
+
+.hand {
+	left: 131px;
+    top: 76px;
+    position: absolute;
+	width: 67px;
+}
+
+.hand img {
+    width: 100%;
+}
+
+#pressure-point {
+    background-color: #888888;
+    border-radius: 50%;
+    box-shadow: 0 0 6px 4px #888888;
+    height: 10px;
+    left: 55px;
+    opacity: 0;
+    position: absolute;
+    top: 185px;
+    width: 10px;
+}
+.pressure-point2 {
+    left: 58px !important;
+    position: relative;
+    top: 122px !important;
+}
+
+#focus-point {
+    border: 2px solid #f00;
+    border-radius: 50%;
+    display: none;
+    height: 30px;
+    left: 45px;
+    position: absolute;
+    top: 172px;
+    width: 30px;
+    z-index: 99999;
+}
+
+#focus-point2 {
+    border: 1px solid #f00;
+    border-radius: 50%;
+    display: none;
+    height: 15px;
+    left: 54px;
+    position: absolute;
+    top: 181px;
+    width: 15px;
+    z-index: 99999;
+}
+
+.focus-point21 {
+    height: 40px !important;
+    left: 40px !important;
+    top: 105px !important;
+    width: 40px !important;
+}
+.focus-point22 {
+    height: 20px !important;
+    left: 52px !important;
+    top: 116px !important;
+    width: 20px !important;
+}
+
+.big-background {
+ /****** change left and top position for reposition the image ********/
+    left: -26px; 
+    top: -14px;
+    width: 173px;
+}
+
+#about {
+    left: 16px;
+    position: absolute;
+    top: 141px;
+    width: 92px;
+}
+
+#about img {
+	width: 100%;
+}
+
+.iphone-contener {
+	position: relative;
+}
+
+.iphone-contener img {
+	width: 100%;
+}
+
+#zoomed2 {
+	
+}
+
+.zoomed2_zoomed {
+    left: -35px;
+    position: relative;
+    top: -58px;
+    width: 165px;
+}
+
+#zoomed2 img{
+	width: 100%;
+}

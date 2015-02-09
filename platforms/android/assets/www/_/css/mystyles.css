@@ -1,0 +1,231 @@
+body {
+	font-family: "Helvetica", Arial, sans-serif;
+}
+
+#home {
+	text-align: center;
+	/*background: url('../../images/background_viewsource.png');*/
+	background-color:black;
+}
+
+
+#home .ui-controlgroup {
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 20px;
+	max-width: 250px;
+}
+
+#home img {
+	width: 50%;
+	max-width: 200px;
+}
+
+#videolist img {
+	display: block;
+	width: 90%;
+}
+
+
+.ui-icon-vs_video {
+	background-image: url("../../images/icon_video.png");
+}
+
+.ui-icon-vs_photo {
+	background-image: url("../../images/icon_photo.png");
+}
+
+.ui-icon-vs_blog {
+	background-image: url("../../images/icon_blog.png");
+}
+
+.ui-icon-vs_twitter {
+	background-image: url("../../images/icon_twitter.png");
+}
+
+
+#videolist h3 {
+	margin: 15px 0 5px 0;
+	height: 40px;
+	overflow: hidden;
+	font-size: 1em;
+}
+
+#videolist img {
+	width: 90%;
+}
+
+#videolist a {
+	text-decoration: none;
+	color: #777;
+}
+
+#videoplayer .ui-content {
+	margin: 0;
+	padding: 0;
+}
+
+#videoplayer iframe {
+	width: 100%;
+	min-height: 50%;
+}
+
+#videoplayer h3, #myplayer p {
+	padding: 0 5%;
+}
+
+
+#photolist img {
+	width: 100px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+#photolist .ui-block-a,
+#photolist .ui-block-b,
+#photolist .ui-block-c {
+	width: 100px;
+	height: 100px;
+	padding: 2px;
+}
+
+#photolist.ui-grid-c {
+	width: 312px;
+	padding: 0;
+	margin: 0 auto;
+}
+
+#showphoto {
+	background: black;
+}
+
+#showphoto img {
+	display: block;
+	margin: 0 auto;
+	max-width: 1024px;
+	width: 100%;
+}
+
+#showphoto .ui-content {
+	width: 100%;
+	padding: 0;
+}
+
+#tweets .ui-listview li {
+	background: #EEE;
+	color: #666;
+	font-weight: normal;
+	border-top: 1px solid #888;
+}
+
+#tweets .ui-listview a{
+	color: #555;
+}
+
+#tweets img {
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	margin: 10px 0 0 25px;
+}
+
+
+@media only screen and (-webkit-min-device-pixel-ratio:2) {
+
+	.ui-icon-vs_video {
+		background-image: url("../../images/icon_video_hr.png");
+		background-size:18px 18px;
+	}
+	
+	.ui-icon-vs_photo {
+		background-image: url("../../images/icon_photo_hr.png");
+		background-size:18px 18px;
+	}
+	
+	.ui-icon-vs_blog {
+		background-image: url("../../images/icon_blog_hr.png");
+		background-size:18px 18px;
+	}
+	
+	.ui-icon-vs_twitter {
+		background-image: url("../../images/icon_twitter_hr.png");
+		background-size:18px 18px;
+	}
+
+}
+
+/*image small*/
+html {
+    background-color: #383838;
+    background-image: -moz-radial-gradient(center center , circle farthest-corner, #666666 0%, #1A1A1A 100%);
+    margin: 0;
+    min-height: 100%;
+    padding: 0;
+}
+
+#novaGallerySets li {
+    display: inline-block;
+    height: 100px;
+    margin: 0 21px 28px 0;
+    width: 130px;
+}
+#novaGallerySets figure {
+    position: relative;
+}
+#novaGallerySets figure:before, #novaGallerySets figure:after {
+    background: none repeat scroll 0 0 #EDEDED;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.7);
+    content: "";
+    display: block;
+    height: 91px;
+    left: 0;
+    padding: 7px;
+    position: absolute;
+    top: 0;
+    width: 126px;
+}
+#novaGallerySets li figure:before {
+    -moz-transform: rotate(-3deg);
+    z-index: 2;
+}
+#novaGallerySets li figure:after {
+    -moz-transform: rotate(4deg);
+    z-index: 1;
+}
+#novaGallerySets img {
+    background: none repeat scroll 0 0 #EDEDED;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+    height: 91px;
+    padding: 7px;
+    position: relative;
+    width: 126px;
+    z-index: 3;
+}
+
+	#novaGallerySets img {
+	background: none repeat scroll 0 0 #EDEDED;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.7);
+	cursor: pointer;
+	height: 91px;
+	padding: 7px;
+	position: relative;
+	width: 126px;
+	z-index: 3;
+	}
+	
+/*slideshow*/
+	#slideshow { 
+	    height: 100%;  
+	    text-align:center;
+	    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+	}
+	
+	#slideshow > div { 
+	    position: absolute; 
+	    top: 10px; 
+	    left: 10px; 
+	    right: 10px; 
+	    bottom: 10px; 
+	}

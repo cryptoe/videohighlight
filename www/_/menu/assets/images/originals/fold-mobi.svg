@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg3072"
+   version="1.1"
+   inkscape:version="0.48.0 r9654"
+   sodipodi:docname="fold-mobi.svg">
+  <defs
+     id="defs3074">
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3920"
+       id="radialGradient5406"
+       cx="256.43384"
+       cy="434.10455"
+       fx="256.43384"
+       fy="434.10455"
+       r="15.176596"
+       gradientTransform="matrix(1,0,0,0.99801311,0,0.86251806)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient3920">
+      <stop
+         style="stop-color:#ff7624;stop-opacity:1;"
+         offset="0"
+         id="stop3922" />
+      <stop
+         style="stop-color:#d94127;stop-opacity:0;"
+         offset="1"
+         id="stop3924" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3920"
+       id="radialGradient5420"
+       cx="255.01476"
+       cy="433.53177"
+       fx="255.01476"
+       fy="433.53177"
+       r="19.268063"
+       gradientTransform="matrix(1,0,0,1.0061847,127.33733,150.53834)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient3051">
+      <stop
+         style="stop-color:#ff7624;stop-opacity:1;"
+         offset="0"
+         id="stop3053" />
+      <stop
+         style="stop-color:#d94127;stop-opacity:0;"
+         offset="1"
+         id="stop3055" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3920"
+       id="linearGradient3938"
+       x1="236.05096"
+       y1="431.6015"
+       x2="274.5871"
+       y2="431.6015"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(127.03307,155.14988)" />
+    <linearGradient
+       id="linearGradient3058">
+      <stop
+         style="stop-color:#ff7624;stop-opacity:1;"
+         offset="0"
+         id="stop3060" />
+      <stop
+         style="stop-color:#d94127;stop-opacity:0;"
+         offset="1"
+         id="stop3062" />
+    </linearGradient>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter5472">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.15233862"
+         id="feGaussianBlur5474" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.78775161"
+     inkscape:cx="372.04724"
+     inkscape:cy="526.18109"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1711"
+     inkscape:window-height="1018"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3077">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       sodipodi:type="spiral"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path3997"
+       sodipodi:cx="165.01352"
+       sodipodi:cy="179.29063"
+       sodipodi:expansion="1"
+       sodipodi:revolution="3"
+       sodipodi:radius="244.68564"
+       sodipodi:argument="-18.886349"
+       sodipodi:t0="0"
+       d="m 165.01352,179.29063 c 12.25985,-0.45127 6.65689,16.30339 0.75005,20.37667 -16.00716,11.03836 -35.89699,-3.27417 -41.50339,-18.87656 -10.02853,-27.90901 11.78562,-55.92464 38.50318,-62.63012 39.2091,-9.84056 76.30488,20.32544 83.75684,58.1298 9.93229,50.38727 -28.86392,96.82089 -77.75641,104.88356 C 107.23757,291.32004 51.359596,243.77501 42.753499,183.79095 32.330363,111.14222 88.685036,45.765035 159.76315,36.653944 243.52624,25.916838 318.43483,91.116407 328.02688,173.29021 339.10128,268.16311 265.03458,352.6237 171.764,362.68066 65.784036,374.10803 -28.242542,291.15927 -38.753181,186.79117 -50.544529,69.705927 41.296787,-33.896607 156.76293,-44.852736 284.95224,-57.016117 398.13808,43.725434 409.53356,170.28999"
+       transform="matrix(0.46696434,0,0,0.48851898,259.06051,319.81578)"
+       inkscape:export-filename="C:\devel\ProjectPathMenu\src\com\pathmenu\home\assets\images\fold-mobi.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#b7b7b7;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path2985-0"
+       sodipodi:cx="310"
+       sodipodi:cy="435.21933"
+       sodipodi:rx="72.85714"
+       sodipodi:ry="68.571426"
+       d="m 382.85714,435.21933 a 72.85714,68.571426 0 1 1 -145.71428,0 72.85714,68.571426 0 1 1 145.71428,0 z"
+       transform="matrix(0.60511288,0,0,0.64283744,161.31189,125.39857)"
+       inkscape:export-filename="C:\devel\ProjectPathMenu\src\com\pathmenu\home\assets\images\fold-mobi.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#d94928;fill-opacity:1;fill-rule:nonzero;stroke:#b7b7b7;stroke-opacity:1"
+       id="path2985-1-0"
+       sodipodi:cx="310"
+       sodipodi:cy="435.21933"
+       sodipodi:rx="72.85714"
+       sodipodi:ry="68.571426"
+       d="m 382.85714,435.21933 a 72.85714,68.571426 0 1 1 -145.71428,0 72.85714,68.571426 0 1 1 145.71428,0 z"
+       inkscape:export-filename="C:\devel\ProjectPathMenu\src\com\pathmenu\home\assets\images\fold-mobi.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       transform="matrix(0.49436355,0,0,0.52518313,195.23265,176.64786)" />
+    <path
+       style="fill:url(#radialGradient5420);fill-opacity:1;fill-rule:evenodd;stroke:url(#linearGradient3938);stroke-width:3.61740851;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter5472)"
+       d="m 381.47104,569.20135 c -7.89164,0.21553 -15.43236,6.77027 -16.4184,15.30061 -1.11098,7.83879 3.69188,15.69757 10.52994,18.43495 7.85768,3.50706 17.92219,0.20811 22.14523,-7.82764 3.6341,-6.43976 2.38061,-15.34955 -2.71718,-20.48052 -3.52741,-3.75374 -8.58777,-5.71957 -13.53959,-5.4274 z"
+       id="path2985-1-0-9"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\devel\ProjectPathMenu\src\com\pathmenu\home\assets\images\fold-mobi.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       transform="matrix(1.8007465,0,0,1.8007696,-340.53149,-651.2444)" />
+    <path
+       sodipodi:type="arc"
+       style="fill:url(#radialGradient5406);fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path5398"
+       sodipodi:cx="256.43384"
+       sodipodi:cy="434.10455"
+       sodipodi:rx="13.388596"
+       sodipodi:ry="13.358441"
+       d="m 269.82243,434.10455 a 13.388596,13.358441 0 1 1 -26.77719,0 13.388596,13.358441 0 1 1 26.77719,0 z"
+       transform="matrix(1.9231891,0,0,1.8394613,-144.37405,-393.42235)"
+       inkscape:export-filename="C:\devel\ProjectPathMenu\src\com\pathmenu\home\assets\images\fold-mobi.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:81.03426361px;font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Arial Black;-inkscape-font-specification:'Arial Black, Heavy'"
+       x="504.15668"
+       y="90.41333"
+       id="text3796"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\devel\ProjectPathMenu\src\com\pathmenu\home\assets\images\fold-mobi.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       transform="matrix(0.73526009,0.67779407,-0.677895,0.73515046,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan3798"
+         x="504.15668"
+         y="90.41333">+</tspan></text>
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#b7b7b7;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path2985-17"
+       sodipodi:cx="310"
+       sodipodi:cy="435.21933"
+       sodipodi:rx="72.85714"
+       sodipodi:ry="68.571426"
+       d="m 382.85714,435.21933 a 72.85714,68.571426 0 1 1 -145.71428,0 72.85714,68.571426 0 1 1 145.71428,0 z"
+       transform="matrix(0.33600658,0,0,0.35700699,181.67289,330.17483)"
+       inkscape:export-filename="C:\devel\ProjectPathMenu\src\com\pathmenu\home\assets\images\fold-mobi.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#4b4845;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path2985-1-4"
+       sodipodi:cx="310"
+       sodipodi:cy="435.21933"
+       sodipodi:rx="72.85714"
+       sodipodi:ry="68.571426"
+       d="m 382.85714,435.21933 a 72.85714,68.571426 0 1 1 -145.71428,0 72.85714,68.571426 0 1 1 145.71428,0 z"
+       transform="matrix(0.28222594,0,0,0.29986505,198.51109,355.18603)"
+       inkscape:export-filename="C:\devel\ProjectPathMenu\src\com\pathmenu\home\assets\images\fold-mobi.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#b7b7b7;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path2985-17-3"
+       sodipodi:cx="310"
+       sodipodi:cy="435.21933"
+       sodipodi:rx="72.85714"
+       sodipodi:ry="68.571426"
+       d="m 382.85714,435.21933 a 72.85714,68.571426 0 1 1 -145.71428,0 72.85714,68.571426 0 1 1 145.71428,0 z"
+       transform="matrix(0.33600663,0,0,0.35700699,292.68196,306.07797)"
+       inkscape:export-filename="C:\devel\ProjectPathMenu\src\com\pathmenu\home\assets\images\fold-mobi.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#4b4845;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path2985-1-4-0"
+       sodipodi:cx="310"
+       sodipodi:cy="435.21933"
+       sodipodi:rx="72.85714"
+       sodipodi:ry="68.571426"
+       d="m 382.85714,435.21933 a 72.85714,68.571426 0 1 1 -145.71428,0 72.85714,68.571426 0 1 1 145.71428,0 z"
+       transform="matrix(0.28222609,0,0,0.29986515,309.52022,331.08916)"
+       inkscape:export-filename="C:\devel\ProjectPathMenu\src\com\pathmenu\home\assets\images\fold-mobi.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="star"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path3773"
+       sodipodi:sides="5"
+       sodipodi:cx="250.47044"
+       sodipodi:cy="377.52502"
+       sodipodi:r1="9.1632261"
+       sodipodi:r2="4.5816131"
+       sodipodi:arg1="0.67720804"
+       sodipodi:arg2="1.3055266"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 257.61158,383.26688 -5.93998,-1.3205 -4.45526,4.1446 -0.57968,-6.05731 -5.31849,-2.95645 5.58171,-2.42312 1.16824,-5.97179 4.02937,4.55974 6.04052,-0.73432 -3.09143,5.2412 z"
+       inkscape:transform-center-x="-0.1737452"
+       inkscape:transform-center-y="-0.92795874"
+       transform="matrix(0,1.2500003,-1.2500002,0,868.68074,148.05544)"
+       inkscape:export-filename="C:\devel\ProjectPathMenu\src\com\pathmenu\home\assets\images\fold-mobi.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#b7b7b7;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path2985-17-0"
+       sodipodi:cx="310"
+       sodipodi:cy="435.21933"
+       sodipodi:rx="72.85714"
+       sodipodi:ry="68.571426"
+       d="m 382.85714,435.21933 a 72.85714,68.571426 0 1 1 -145.71428,0 72.85714,68.571426 0 1 1 145.71428,0 z"
+       transform="matrix(0.33600658,0,0,0.35700699,135.16896,261.667)"
+       inkscape:export-filename="C:\devel\ProjectPathMenu\src\com\pathmenu\home\assets\images\fold-mobi.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#4b4845;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path2985-1-4-00"
+       sodipodi:cx="310"
+       sodipodi:cy="435.21933"
+       sodipodi:rx="72.85714"
+       sodipodi:ry="68.571426"
+       d="m 382.85714,435.21933 a 72.85714,68.571426 0 1 1 -145.71428,0 72.85714,68.571426 0 1 1 145.71428,0 z"
+       transform="matrix(0.28222608,0,0,0.29986518,152.00732,286.67824)"
+       inkscape:export-filename="C:\devel\ProjectPathMenu\src\com\pathmenu\home\assets\images\fold-mobi.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#b7b7b7;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path2985-17-0-7"
+       sodipodi:cx="310"
+       sodipodi:cy="435.21933"
+       sodipodi:rx="72.85714"
+       sodipodi:ry="68.571426"
+       d="m 382.85714,435.21933 a 72.85714,68.571426 0 1 1 -145.71428,0 72.85714,68.571426 0 1 1 145.71428,0 z"
+       transform="matrix(0.3360066,0,0,0.35700699,352.68692,263.50569)"
+       inkscape:export-filename="C:\devel\ProjectPathMenu\src\com\pathmenu\home\assets\images\fold-mobi.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#4b4845;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path2985-1-4-00-9"
+       sodipodi:cx="310"
+       sodipodi:cy="435.21933"
+       sodipodi:rx="72.85714"
+       sodipodi:ry="68.571426"
+       d="m 382.85714,435.21933 a 72.85714,68.571426 0 1 1 -145.71428,0 72.85714,68.571426 0 1 1 145.71428,0 z"
+       transform="matrix(0.28222599,0,0,0.29986508,369.52522,288.51705)"
+       inkscape:export-filename="C:\devel\ProjectPathMenu\src\com\pathmenu\home\assets\images\fold-mobi.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#b7b7b7;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path2985-17-0-7-5"
+       sodipodi:cx="310"
+       sodipodi:cy="435.21933"
+       sodipodi:rx="72.85714"
+       sodipodi:ry="68.571426"
+       d="m 382.85714,435.21933 a 72.85714,68.571426 0 1 1 -145.71428,0 72.85714,68.571426 0 1 1 145.71428,0 z"
+       transform="matrix(0.33600221,0,0,0.35772119,324.18519,179.53695)"
+       inkscape:export-filename="C:\devel\ProjectPathMenu\src\com\pathmenu\home\assets\images\fold-mobi.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#4b4845;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path2985-1-4-00-9-3"
+       sodipodi:cx="310"
+       sodipodi:cy="435.21933"
+       sodipodi:rx="72.85714"
+       sodipodi:ry="68.571426"
+       d="m 382.85714,435.21933 a 72.85714,68.571426 0 1 1 -145.71428,0 72.85714,68.571426 0 1 1 145.71428,0 z"
+       transform="matrix(0.28222236,0,0,0.30046508,341.02319,204.59804)"
+       inkscape:export-filename="C:\devel\ProjectPathMenu\src\com\pathmenu\home\assets\images\fold-mobi.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.17204499;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 427.52929,323.05433 c -2.97706,0.005 -7.29847,2.61992 -6.18857,8.84234 l 0.54607,1.50631 c 2.47339,5.17423 4.59862,8.89273 6.65762,11.87476 l 0.52936,0.007 c 4.38409,-7.24269 4.63169,-8.30188 6.2704,-11.52201 l 0.32417,-0.65742 c 2.46062,-5.52769 -1.79239,-10.057 -4.76864,-10.05146 z"
+       id="rect4088"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:export-filename="C:\devel\ProjectPathMenu\src\com\pathmenu\home\assets\images\fold-mobi.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#4b4845;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path4099"
+       sodipodi:cx="249.57178"
+       sodipodi:cy="264.12936"
+       sodipodi:rx="3.3872135"
+       sodipodi:ry="3.2931242"
+       d="m 252.95899,264.12936 a 3.3872135,3.2931242 0 1 1 -6.77443,0 3.3872135,3.2931242 0 1 1 6.77443,0 z"
+       transform="matrix(0.83882979,0,0,0.85400054,219.42345,102.89952)"
+       inkscape:export-filename="C:\devel\ProjectPathMenu\src\com\pathmenu\home\assets\images\fold-mobi.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect4128"
+       width="15.284287"
+       height="5.2510238"
+       x="461.17484"
+       y="502.70065"
+       ry="2.5439579"
+       rx="0.82897884"
+       transform="matrix(0.97970869,-0.20042677,0,1,0,0)"
+       inkscape:export-filename="C:\devel\ProjectPathMenu\src\com\pathmenu\home\assets\images\fold-mobi.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect4128-6"
+       width="16.773594"
+       height="1.8666708"
+       x="-258.38043"
+       y="518.4754"
+       ry="0.93333542"
+       rx="1.0429281"
+       transform="matrix(0.15509323,-0.98789984,0.94390093,0.33022875,0,0)"
+       inkscape:export-filename="C:\devel\ProjectPathMenu\src\com\pathmenu\home\assets\images\fold-mobi.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect4128-6-8"
+       width="14.468773"
+       height="2.1804273"
+       x="-272.23358"
+       y="533.85242"
+       ry="0.47475854"
+       rx="2.455117"
+       transform="matrix(0.17775521,-0.98407474,0.9567477,0.29091895,0,0)"
+       inkscape:export-filename="C:\devel\ProjectPathMenu\src\com\pathmenu\home\assets\images\fold-mobi.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect4186-4"
+       width="6.8005128"
+       height="5.1117702"
+       x="457.44077"
+       y="419.7276"
+       rx="5.2525525"
+       ry="1.6562014"
+       inkscape:export-filename="C:\devel\ProjectPathMenu\src\com\pathmenu\home\assets\images\fold-mobi.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect4186-4-9"
+       width="7.4639664"
+       height="5.3530211"
+       x="443.73447"
+       y="422.49356"
+       rx="5.7649765"
+       ry="1.7343658"
+       inkscape:export-filename="C:\devel\ProjectPathMenu\src\com\pathmenu\home\assets\images\fold-mobi.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#b7b7b7;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path2985-17-0-7-5-1"
+       sodipodi:cx="310"
+       sodipodi:cy="435.21933"
+       sodipodi:rx="72.85714"
+       sodipodi:ry="68.571426"
+       d="m 382.85714,435.21933 a 72.85714,68.571426 0 1 1 -145.71428,0 72.85714,68.571426 0 1 1 145.71428,0 z"
+       transform="matrix(0.33627098,0,0,0.35752091,241.66186,141.62207)"
+       inkscape:export-filename="C:\devel\ProjectPathMenu\src\com\pathmenu\home\assets\images\fold-mobi.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#4b4845;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path2985-1-4-00-9-3-7"
+       sodipodi:cx="310"
+       sodipodi:cy="435.21933"
+       sodipodi:rx="72.85714"
+       sodipodi:ry="68.571426"
+       d="m 382.85714,435.21933 a 72.85714,68.571426 0 1 1 -145.71428,0 72.85714,68.571426 0 1 1 145.71428,0 z"
+       transform="matrix(0.28244802,0,0,0.30029683,258.51328,166.66919)"
+       inkscape:export-filename="C:\devel\ProjectPathMenu\src\com\pathmenu\home\assets\images\fold-mobi.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.23648453;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3870"
+       width="24.670101"
+       height="4.6031146"
+       x="333.70944"
+       y="300.86371"
+       ry="1.5720973"
+       rx="4.7594137"
+       inkscape:export-filename="C:\devel\ProjectPathMenu\src\com\pathmenu\home\assets\images\fold-mobi.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.77180302;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 346.03978,285.00826 c -2.26766,0 -4.07859,1.55062 -4.07859,3.49058 l 0,5.83859 c 0,1.14299 0.64652,2.14196 1.63132,2.78038 -0.12473,0.30635 -0.0255,0.70203 -0.17455,0.98866 l -1.36991,2.6273 c -0.62054,1.19196 2.52492,1.04826 3.99173,1.04826 1.46672,0 4.7676,0.0965 4.10445,-1.08767 l -1.45353,-2.58789 c -0.16118,-0.28738 -0.0759,-0.67995 -0.20402,-0.98866 0.99664,-0.63766 1.66056,-1.62952 1.66056,-2.78038 l 0,-5.83859 c 0,-1.93996 -1.84008,-3.49058 -4.10746,-3.49058 z"
+       id="rect4054"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ssscssssscsss"
+       inkscape:export-filename="C:\devel\ProjectPathMenu\src\com\pathmenu\home\assets\images\fold-mobi.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path3053"
+       sodipodi:cx="256.29916"
+       sodipodi:cy="184.7886"
+       sodipodi:rx="9.0796137"
+       sodipodi:ry="9.2913151"
+       d="m 265.37878,184.7886 a 9.0796137,9.2913151 0 1 1 -18.15923,0 9.0796137,9.2913151 0 1 1 18.15923,0 z"
+       transform="matrix(1.5289222,0.1386813,-0.10502388,1.1578608,-132.94245,166.28643)"
+       inkscape:export-filename="C:\devel\ProjectPathMenu\src\com\pathmenu\home\assets\images\fold-mobi.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       d="m 235.29542,420.97069 -4.4029,10.25332 10.67568,-5.30761 z"
+       id="path3825"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\devel\ProjectPathMenu\src\com\pathmenu\home\assets\images\fold-mobi.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#b7b7b7;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path2985-17-0-7-5-1-3"
+       sodipodi:cx="310"
+       sodipodi:cy="435.21933"
+       sodipodi:rx="72.85714"
+       sodipodi:ry="68.571426"
+       d="m 382.85714,435.21933 a 72.85714,68.571426 0 1 1 -145.71428,0 72.85714,68.571426 0 1 1 145.71428,0 z"
+       transform="matrix(0.33655434,0,0,0.35724621,163.43139,178.03752)"
+       inkscape:export-filename="C:\devel\ProjectPathMenu\src\com\pathmenu\home\assets\images\fold-mobi.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#4b4845;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path2985-1-4-00-9-3-7-9"
+       sodipodi:cx="310"
+       sodipodi:cy="435.21933"
+       sodipodi:rx="72.85714"
+       sodipodi:ry="68.571426"
+       d="m 382.85714,435.21933 a 72.85714,68.571426 0 1 1 -145.71428,0 72.85714,68.571426 0 1 1 145.71428,0 z"
+       transform="matrix(0.28268616,0,0,0.30006606,180.29689,203.06545)"
+       inkscape:export-filename="C:\devel\ProjectPathMenu\src\com\pathmenu\home\assets\images\fold-mobi.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 268.15553,321.70256 c -5.7713,0 -10.54629,2.09505 -11.15629,4.81089 l -2.48794,0 0,15.3147 27.12751,0 0,-15.3147 -2.36766,0 c -0.61003,-2.71584 -5.34455,-4.81089 -11.11562,-4.81089 z"
+       id="rect3831"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\devel\ProjectPathMenu\src\com\pathmenu\home\assets\images\fold-mobi.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#4b4845;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3839"
+       sodipodi:cx="250.65379"
+       sodipodi:cy="347.09259"
+       sodipodi:rx="4.2810616"
+       sodipodi:ry="3.6930037"
+       d="m 254.93485,347.09259 a 4.2810616,3.6930037 0 1 1 -8.56212,0 4.2810616,3.6930037 0 1 1 8.56212,0 z"
+       transform="matrix(1.4595356,0,0,1.5223326,-97.785995,-195.15252)"
+       inkscape:export-filename="C:\devel\ProjectPathMenu\src\com\pathmenu\home\assets\images\fold-mobi.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 278.34597,474.45567 c -5.63843,3.91765 -6.13399,11.741 -1.10386,17.47829 5.03001,5.73741 13.67443,7.20974 19.31269,3.29212 0.68559,-0.47656 1.28428,-1.03038 1.81708,-1.61168 -5.43077,1.96666 -12.29029,0.19327 -16.56132,-4.68052 -4.40125,-5.02013 -4.59743,-11.6526 -0.79436,-15.85364 -0.93797,0.34641 -1.84163,0.79962 -2.6704,1.37538 z"
+       id="path3862"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\devel\ProjectPathMenu\src\com\pathmenu\home\assets\images\fold-mobi.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+  </g>
+</svg>

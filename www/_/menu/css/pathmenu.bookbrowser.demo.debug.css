@@ -1,0 +1,116 @@
+.hidestatus {
+  visibility: hidden;
+}
+.showstatus {
+  visibility: visible;
+  font-weight: bold;
+}
+#menu1 {
+  margin: 0 auto;
+}
+#content {
+  display: table;
+  width: 100%;
+}
+#content > div {
+  display: table-cell;
+}
+/*large screen*/
+@media (min-width: 1200px) {
+  #bookbrowser {
+    margin: 0 auto;
+    /*width of the main button, so we can center it*/
+  
+    width: 190px;
+  }
+  #content {
+    /*100px is the height of a menu item,
+  		allows us to add some padding above and below the main button*/
+  
+    margin: 100px 0;
+  }
+  #content > div {
+    /*height of the main button*/
+  
+    height: 190px;
+  }
+}
+/*small screen*/
+@media (max-width: 1200px) {
+  #bookbrowser {
+    margin: 0 auto;
+    /*width of the main button, so we can center it*/
+  
+    width: 80px;
+    font-size: 6pt;
+  }
+  #content {
+    /*60px is the height of a menu item,
+  		allows us to add some padding above and below the main button*/
+  
+    margin: 60px 0;
+  }
+  #content > div {
+    /*height of the main button*/
+  
+    height: 80px;
+  }
+}
+/*large screen*/
+.path div.menu.back,
+.path div.menu {
+  /*The main x menu item*/
+
+  width: 190px;
+  height: 190px;
+  background: url('../assets/images/app/large/mainbutton.png') no-repeat center center;
+}
+.path div.menu.back {
+  /*The back button, just like the main button but allows you to go back one level*/
+
+  background: url('../assets/images/app/large/backbutton.png') no-repeat center center;
+}
+.path div.item {
+  /*effects all child menu items*/
+
+  width: 100px;
+  height: 100px;
+  color: white;
+  font-weight: bold;
+  background: url('../assets/images/app/large/item.png') no-repeat center center;
+}
+.path div.item > div {
+  width: 100px;
+  height: 100px;
+  background: url('../assets/images/app/large/mask.png') no-repeat center center;
+}
+/*small screen*/
+@media (max-width: 1200px) {
+  .path div.menu.back,
+  .path div.menu {
+    /*The main x menu item*/
+  
+    width: 80px;
+    height: 80px;
+    background: url('../assets/images/app/small/mainbutton.png') no-repeat center center;
+  }
+  .path div.menu.back {
+    /*The back button, just like the main button but allows you to go back one level*/
+  
+    background: url('../assets/images/app/small/backbutton.png') no-repeat center center;
+  }
+  .path div.item {
+    /*effects all child menu items*/
+  
+    width: 60px;
+    height: 60px;
+    color: white;
+    font-weight: bold;
+    background: url('../assets/images/app/small/item.png') no-repeat center center;
+  }
+  .path div.item > div {
+    width: 60px;
+    height: 60px;
+    background: url('../assets/images/app/small/mask.png') no-repeat center center;
+  }
+}

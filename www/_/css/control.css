@@ -1,0 +1,18 @@
+header .logo { 
+	top: 21px;
+	margin-left: -67px;
+	display: block;
+}
+
+header nav .navleft .navleft-wrapper {
+	margin-right: 91px;
+}
+
+header nav .navright .navright-wrapper {
+	margin-left: 91px;
+}
+
+#jeglio .item .item-wrapper .desc-holder h3, .item-detail .item-description .item-desc-wrapper h2 {
+    color: #464646;
+    line-height: 140%;
+}
